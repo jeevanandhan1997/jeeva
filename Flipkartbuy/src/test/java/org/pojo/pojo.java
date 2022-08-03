@@ -14,7 +14,6 @@ public class pojo extends baseclass {
 	
 	@FindBy(xpath="//button[@class='_2KpZ6l _2doB4z']")
 	private WebElement cancel;
-
 	public WebElement getCancel() {
 		return cancel;
 	}
@@ -39,14 +38,14 @@ public class pojo extends baseclass {
 
 	@FindBy(xpath = "//button[@class ='_2KpZ61_20xBvF _3AWRsL']")
 	private WebElement continueBut;
-
 	@FindBy(xpath = " //input [@name ='name']")
 	private WebElement addName;
-
 	@FindBy(xpath = " //input[@name ='phone']")
 	private WebElement addPhno;
+	
 	@FindBy(xpath = " //input[@name ='pincode']")
 	private WebElement addPinCode;
+	
 	@FindBy(xpath = " //input[@name='pincode']")
 	private WebElement addPinCode1;
 	@FindBy(xpath = " //input[@name='addressLine2']")
@@ -80,7 +79,7 @@ public class pojo extends baseclass {
 
 	}
 
-	@FindBy(xpath = "product")
+	@FindBy(xpath = "//div[@class='_4rR01T']")
 
 	private WebElement product;
 
